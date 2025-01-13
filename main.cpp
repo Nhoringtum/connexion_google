@@ -17,7 +17,7 @@ int main()
 		return 0;
 	}
 
-	if (inet_pton(AF_INET, "216.58.214.67", &server.sin_addr) <= 0)
+	if (inet_pton(AF_INET, "192.168.1.21", &server.sin_addr) <= 0)
 	{
 		return false;
 	}
